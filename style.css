@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color:white;
+}
+#game-canvas{
+  width:100vw;
+  height:100vh;
+  background:#000;
+  text-align: center;
+}
+h1{
+  font-family:monospace;
+  text-align:center;
+}
+img{
+  height:200px;
+  width:160px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+.buttons button{
+  border-radius:45px;
+  padding:20px;
+  color:black;
+  border:none;
+  background-image:linear-gradient(to right,#FF8E00,#E6FF00);
+  font-family:monospace;
+}
